@@ -1,7 +1,7 @@
 import { useRouter } from "expo-router";
 import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
-import { Card } from "../styles/components/Card";
+import { Card } from "../components/Card";
 
 export default function Detalhes() {
     const router = useRouter();
